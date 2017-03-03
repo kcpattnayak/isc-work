@@ -4,6 +4,6 @@ for name in band:
    if name not in counts:
        counts[name] = 1
    else:
-       counts[name] = counts+1
+       counts[name] = counts[name]+1
 for name in counts:
    print name, counts[name]
